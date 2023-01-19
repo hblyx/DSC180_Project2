@@ -4,3 +4,4 @@ Required Python Modules:
     pandas
     matplotlib
     seaborn
+    torch # PyTorch with GNN
