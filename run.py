@@ -3,7 +3,7 @@
 import sys
 import json
 
-from src.features import read_graph as read
+from data import read_graph as read
 from src.models import common_neighbor_community as cnc
 
 def main(targets):
