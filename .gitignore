@@ -130,6 +130,3 @@ dmypy.json
 
 # ignore data
 /data
-
-# ignore notebooks
-notebooks
