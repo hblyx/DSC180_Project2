@@ -5,3 +5,4 @@ Required Python Modules:
     matplotlib
     seaborn
     torch # PyTorch with GNN
+    torch_geometric
