@@ -7,6 +7,21 @@ For this project, we explore the community detection solutions with machine lear
 
 This repository contains all code for all findings and attempt related to this project.
 
+### Files
+* `checkpoints` contains best models' stats in format of PyTorch's `.pt`.
+* `config` contains parameters used for models.
+* `notebooks` contains notebooks which illustrates data analysis, the result,  and training process.
+* `outputs` contains the training plots including loss and score plots of models.
+* `references` contains all reference.
+* `src` contains all source code used for data analysis, models, and training. 
+    * `data` contains source code used for generate random and test data, data analysis, loading data for models, and some code for read specific format of data.
+    * `features` contains code for feature engineering.
+    * `models` contains the code for models, algorithms, and training.
+* `test` contains the test data for `run.py`. Specifically, the test data are stored in `/test/testdata/`.
+* `requiremetnts.txt` speficy the requirements of running this project.
+* `run.py` can run a simple test for this project.
+* `submission.json` contains information of Docker image for this project.
+
 ### Requirements
 `submission.json` contains the Docker image which have all packages needed. Meanwhile, the specific requirements are in `requirements.txt`.
 
