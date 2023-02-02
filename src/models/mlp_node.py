@@ -3,7 +3,7 @@ import torch.nn as nn
 
 
 
-class MLP(nn.Module):
+class MLPNode(nn.Module):
     def __init__(self, num_inputs, num_outputs, seed=None):
         super().__init__()
         if seed != None:
