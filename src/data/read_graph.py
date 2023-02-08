@@ -2,22 +2,36 @@ import networkx as nx
 
 from collections import defaultdict
 
-def read_graph(path: str) -> nx.Graph:
-        return nx.read_edgelist(path, nodetype=int)
 
-def read_ground_truth(path: str, nodewise: bool=False, seperator: str="\s") -> dict:
-    ground_truth = defaultdict(list)
-    com_idx = 0
+
+def read_twitch(features_path: str, edges_path: str) -> nx.Graph:
+    g = nx.Graph()
     
-    with open(path, 'r') as f:
-        lines = f.readlines()
-        for line in lines:
-            for node in line.strip().split(seperator):
-                if nodewise:
-                    ground_truth[node].append(com_idx)
-                else:
-                    ground_truth[com_idx].append(node)
-                    
-            com_idx += 1
+    with open(edges_path, 'r') as file:
+        next(file) # skip the header
+        for line in file:
+            u, v = line.strip().split(",") # undirected
+            u, v = int(u), int(v)
+            g.add_edge(u, v)
+            
+    features = defaultdict(dict)
+    with open(features_path, 'r') as file:
+        next(file) # skip the header
+        for line in file:
+            # read data
+            views, mature, life_time, _, _, id, dead_account, language, affiliate = line.strip().split(",")
+            # convert dtypes
+            id = int(id)
+            views = int(views)
+            life_time = int(life_time)
+            # assign features
+            features[id]["view"] = views
+            features[id]["mature"] = mature
+            features[id]["life_time"] = life_time
+            features[id]["dead_account"] = dead_account
+            features[id]["language"] = language
+            features[id]["affiliate"] = affiliate
+            
+    nx.set_node_attributes(g, features)
     
-    return ground_truth
+    return g
