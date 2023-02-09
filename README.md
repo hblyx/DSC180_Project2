@@ -1,9 +1,9 @@
-# DSC180 Project 2 - Community Detection with Machine Learning
-## Explore Community Detection with Machine Learning
+# DSC180 Project 2 - Performance Evaluation of Community Detection on Neural Networks
+## Performance Evaluation of Community Detection on Neural Networks
 #### Yaoxin Li, Justin Nguyen, Vivek Rayalu
 
 ### Introduction
-For this project, we explore the community detection solutions with machine learning, deep learning in particular. 
+As our previous work, explored the traditional solutions of community detection, including Louvain, Girvan-Newman, and etc, we are also explring the solutions with neural networks. For this project, we explore the community detection solutions with machine learning, deep learning in particular. We specifically explore the performance of neural networks on task of community detection by implementing and training different neural networks, including Multiple Layers Perceptrons and Graph Neural Networks, to test whether neural networks can be a solution for community detection.
 
 This repository contains all code for all findings and attempt related to this project.
 
