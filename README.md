@@ -3,7 +3,7 @@
 #### Yaoxin Li, Justin Nguyen, Vivek Rayalu
 
 ### Introduction
-As our previous work, explored the traditional solutions of community detection, including Louvain, Girvan-Newman, and etc, we are also explring the solutions with neural networks. For this project, we explore the community detection solutions with machine learning, deep learning in particular. We specifically explore the performance of neural networks on task of community detection by implementing and training different neural networks, including Multiple Layers Perceptrons and Graph Neural Networks, to test whether neural networks can be a solution for community detection.
+As our previous work, we explored the traditional solutions of community detection, including Louvain, Girvan-Newman, and etc, we are also explring the solutions with neural networks. For this project, we explore the community detection solutions with machine learning, deep learning in particular. We specifically explore the performance of neural networks on task of community detection by implementing and training different neural networks, including Multiple Layers Perceptrons and Graph Neural Networks, to test whether neural networks can be a solution for community detection.
 
 This repository contains all code for all findings and attempt related to this project.
 
