@@ -1,4 +1,4 @@
 {
-    "dockerhub-id": "hblyx/project:latest",
-    "build-script": "python run.py"
+    "GitHub Repository": "https://github.com/hblyx/CommunityDetection.git",
+    "DockerHub Repository": "hblyx/project:latest"
 }
