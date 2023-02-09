@@ -1,0 +1,1 @@
+All relevant models used are included in `torch_geometric`, and all models can be found https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html.
