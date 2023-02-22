@@ -1,4 +1,6 @@
-# Performance Evaluation of Community Detection on Neural Networks
+Yaoxin Li, Justin Nguyen, Vivek Rayalu
+
+# Overview
 
 This is about as **barebones** as a Jekyll site can be. All I've done is embed a plotly plot here.
 
