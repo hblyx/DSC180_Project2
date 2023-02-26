@@ -37,6 +37,8 @@ $$density = \frac{edges\_in\_community}{edges\_out\_community}$$
 ## Analysis of CORA
 ### Degree distribution
 
+![CORA_degree](/figures/MLP_node_loss.jpg)
+
 As we can see, the distribution of the degrees seems like a power-law distribution like other typical real networks. In other words, there are a few hubs, nodes connected to more other nodes, in the graph. That said, for the degree of nodes, most nodes have a low number of degrees, while a few nodes have higher degrees.
 
 ### Community analysis
