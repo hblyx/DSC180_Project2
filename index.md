@@ -2,6 +2,7 @@
 layout: page
 title: "Performance Evaluation of Community Detection on Neural Networks"
 ---
+
 #### Authors: Yaoxin Li, Justin Nguyen, Vivek Rayalu
 
 

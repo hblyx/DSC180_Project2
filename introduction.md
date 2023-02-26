@@ -2,6 +2,7 @@
 layout: page
 title: "Introduction"
 ---
+
 # Definition of Community Detection
 
 Community detection, commonly referred to as graph clustering or network clustering, is a task in network analysis which is used to identify groups or communities within a given network. These groups are usually characteristic of dense connections between nodes within the group, as compared to the connections of these nodes to the nodes in the rest of the network.
