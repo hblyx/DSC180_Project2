@@ -1,3 +1,36 @@
-remote_theme: pages-themes/cayman@v0.2.0
+title: "Yaoxin Li (Tom)"
+author: "Yaoxin Li (Tom)"
+description: "Performance Evaluation of Community Detection on Neural Networks"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+
+show_excerpts: false        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: true        # show a sidebar instead of the usual header
+minimal: false             # use a dark header
+mathjax: true
+
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "index.md", title: Home}
+  - {file: "introduction.md", title: Introduction}
+  - {file: "methods.md", title: Methods}
+  - {file: "results.md", title: Results}
+  - {file: "discussion.md", title: Discussion}
+  - {file: "conclusion.md", title: Conclusion}
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:hblyx@ucsd.edu"}
+  - {title: Github, icon: github, url: "https://github.com/hblyx/CommunityDetection"}
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+ - jekyll-feed
