@@ -6,4 +6,4 @@ layout: page
 
 # Reference
 
-We used this [original repository](https://github.com/niklasbuschmann/contrast) as the template as our project website.
+Fork this [original repository](https://github.com/niklasbuschmann/contrast) as the template as our project website.
