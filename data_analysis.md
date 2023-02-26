@@ -3,6 +3,12 @@ layout: page
 title: "Data Analysis"
 ---
 
+# Analysis of Dataset
+
+We basically did analysis on degree distribution and community structure in terms of community topology. Specifically for the community topology, to know whether there are communities, we need to find out the community density. If the community structure exists in the graph, we will see the higher density within communities than the density connected communities. More specifically, the density is defined by the density of edges. If edges connected two nodes within a same community, this edge is an in-community edge. Otherwise, the edge is an out-community edge. Therefore, the in-community density is defined by:
+
+$$density = \frac{edges\_in\_community}{edges\_out\_community}$$
+
 ## Analysis of CORA
 ### Degree distribution
 
