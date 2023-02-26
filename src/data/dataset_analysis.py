@@ -6,7 +6,7 @@ import numpy as np
 
 from collections import defaultdict
 
-def degree_statistics(g: nx.Graph, log=False) -> None:
+def degree_statistics(g: nx.Graph, log=False, name="") -> None:
     degrees = []
     for node in g.nodes:
         degrees.append(g.degree[node])
@@ -22,12 +22,13 @@ def degree_statistics(g: nx.Graph, log=False) -> None:
     plt.title("Degree Distribution Plot")
     plt.xlabel("Degree")
     plt.ylabel("Frequency")
+    plt.savefig(f"../outputs/{name}_degree_distribution.jpg")
     plt.show()
     plt.close()
     
-    degree_loglog(degrees, np.max(degrees))
+    degree_loglog(degrees, np.max(degrees), name=name)
     
-def degree_loglog(degrees: list, max_degree: int) -> None:
+def degree_loglog(degrees: list, max_degree: int, name: str = "") -> None:
     prob, _ = np.histogram(degrees, bins=max_degree)
     prob = prob / sum(prob)
     pdf = [k ** -1.5 for k in range(1, max_degree)]
@@ -39,6 +40,7 @@ def degree_loglog(degrees: list, max_degree: int) -> None:
     plt.xlabel("Probability")
     plt.ylim(1e-5)
     plt.legend()
+    plt.savefig(f"../outputs/{name}_log_degree_distribution.jpg")
     plt.show()
     plt.close()
     
