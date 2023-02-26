@@ -19,13 +19,13 @@ mathjax: true
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md", title: Home}
   - {file: "introduction.md", title: Introduction}
+  - {file: "data_analysis.md", title: Data Analysis}
   - {file: "methods.md", title: Methods}
   - {file: "results.md", title: Results}
   - {file: "discussion.md", title: Discussion}
   - {file: "conclusion.md", title: Conclusion}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:hblyx@ucsd.edu"}
   - {title: Github, icon: github, url: "https://github.com/hblyx/CommunityDetection"}
 
 comments:
