@@ -32,4 +32,4 @@ Instead of presenting our results and code in `run.py`, we choose notebooks to s
 
 ### Website
 
-The project website and its source code is under the [gh-pages branch](https://github.com/hblyx/CommunityDetection/tree/gh-pages) of the same repository.
+The project [website](https://hblyx.github.io/CommunityDetection/) and its source code is under the [gh-pages branch](https://github.com/hblyx/CommunityDetection/tree/gh-pages) of the same repository.
