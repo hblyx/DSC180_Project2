@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Introduction"
+title: "Discussion"
 ---
 
 # Strengths and Weaknesses of each Algorithm

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Introduction"
+title: "Results"
 ---
 
 # Performance Metric for the Algorithms (classification accuracy)
