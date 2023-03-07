@@ -4,6 +4,7 @@ title: "Methods"
 ---
 
 ![MLP](figures/mlp.jpg)
+
 [MLP](https://www.tutorialspoint.com/tensorflow/tensorflow_multi_layer_perceptron_learning.htm) by TensorFlow
 
 # MLP on Node Features
@@ -17,6 +18,7 @@ The second MLP tested on the dataset was designed to operate solely based on gra
 # GNN on Node Features + Graph Data
 
 ![GNN](figures/gnn.jpg)
+
 [GNN](https://theaisummer.com/Graph_Neural_Networks/) by Sergios Karagiannakos
 
 This community detection algorithm is a graph convolutional neural network constructed to work with both node features and graph data. It is composed of a graph convolutional layer that takes as input the node feature matrix and edge indices with 64 output channels, followed by ReLU activation, and finally another graph convolutional layer with 64 input channels and output as the predicted community a node belongs to.
