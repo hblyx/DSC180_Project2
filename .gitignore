@@ -5,3 +5,7 @@
 Gemfile.lock
 _site
 *.gem
+
+/outputs
+/notebooks
+/src
