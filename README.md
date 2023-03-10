@@ -1,5 +1,4 @@
 # DSC180 Project 2 - Performance Evaluation of Community Detection on Neural Networks
-## Performance Evaluation of Neural Networks on Community Detection 
 #### Yaoxin Li, Justin Nguyen, Vivek Rayalu
 
 ### Introduction
