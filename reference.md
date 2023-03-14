@@ -11,10 +11,10 @@ title: "Reference"
 
 * Tensorflow - Multi-Layer Perceptron Learning. Tutorials Point. Retrieved March 7, 2023, from https://www.tutorialspoint.com/tensorflow/tensorflow_multi_layer_perceptron_learning.htm 
 
-* Hagberg, A. A., Schult, D. A., Swart P. J. (2008). Exploring Network Structure, Dynamics, and Function using NetworkX in Proceedings of the 7th Python in Science conference (SciPy 2008): 11-15. https://conference.scipy.org/proceedings/SciPy2008/paper_2/full_text.pdf
+* Hagberg, A. A., Schult, D. A., Swart P. J. (2008). Exploring Network Structure, Dynamics, and Function using NetworkX in Proceedings of the 7th Python in Science conference (SciPy 2008): 11-15, from https://conference.scipy.org/proceedings/SciPy2008/paper_2/full_text.pdf
 
-* Kipf, T. N., & Welling, M. (2016). Semi-Supervised Classification with Graph Convolutional Networks. arXiv. https://doi.org/10.48550/arxiv.1609.02907
+* Kipf, T. N., & Welling, M. (2016). Semi-Supervised Classification with Graph Convolutional Networks. arXiv, from https://doi.org/10.48550/arxiv.1609.02907
 
-* Paszke, A. et al. (2019). PyTorch: An Imperative Style, High-Performance Deep Learning Library. Advances in Neural Information Processing Systems 32: 8024-8035. Curran Associates, Inc. http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf
+* Paszke, A. et al. (2019). PyTorch: An Imperative Style, High-Performance Deep Learning Library. Advances in Neural Information Processing Systems 32: 8024-8035. Curran Associates, Inc, from http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf
 
-* Yang, Z., Cohen W. W., & Salakhutdinov R. (2016). Revisiting Semi-Supervised Learning with Graph Embeddings. Proceedings of the 33rd International Conference on Machine Learning, New York, NY, USA, 2016. JMLR: W&CP volume 48. arXiv. https://doi.org/10.48550/arXiv.1603.08861
+* Yang, Z., Cohen W. W., & Salakhutdinov R. (2016). Revisiting Semi-Supervised Learning with Graph Embeddings. Proceedings of the 33rd International Conference on Machine Learning, New York, NY, USA, 2016. JMLR: W&CP volume 48. arXiv, from https://doi.org/10.48550/arXiv.1603.08861
