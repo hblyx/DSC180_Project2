@@ -1,5 +1,4 @@
 # DSC180 Project 2 - Performance Evaluation of Community Detection on Neural Networks
-## Performance Evaluation of Community Detection on Neural Networks
 #### Yaoxin Li, Justin Nguyen, Vivek Rayalu
 
 ### Introduction
@@ -29,3 +28,7 @@ This repository contains all code for all findings and attempt related to this p
 To run the project, we left the test with `run.py`. However, since this project is  more about to explore the solutions for community detection, the content is relatively mass. It is really difficult to re-run all analysis, model training, and algorithms implemented in a short period of time. Therefore, in `test` of `run.py`, it will run our naive traditional community detection algorithm which depends on the number of common neighbors on the test dataset. It will just make sure the graph/network enviroment has been set correctly with test data. In addition, since the entire environment of the running models of Graph Neural Network depends on the hardware environment. Specifically, since the training process requires to specify the GPU/CPU, it must corporate with the correct version of PyTorch, `torch`, and `torch_geometric` which need to specify whether use CPU only or specific CUDA version. Since the device run these code might have different hardware environment, we leave this part free to change. However, all training results and process are reproducible in the notebooks and code.
 
 Instead of presenting our results and code in `run.py`, we choose notebooks to show the results and process. Specifically `/notebooks` folder contains all attempts, models, and results we did, built, and ran. 
+
+### Website
+
+The project [website](https://hblyx.github.io/CommunityDetection/) and its source code is under the [gh-pages branch](https://github.com/hblyx/CommunityDetection/tree/gh-pages) of the same repository.
