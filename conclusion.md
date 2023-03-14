@@ -5,14 +5,15 @@ title: "Conclusion"
 
 # Summary of Findings
 
-After evaluating each algorithm on the CORA dataset, the following observations were made:
-1. The graph convolutional neural network performed the best in predicting communities with a relatively high classification accuracy of 90.04%.
-2. While nowhere as high performing as the graph convolutional neural network, the multi-layer perceptron on node features performed the second best with an accuracy of 77.12%.
-3. The multi-layer perceptron on graph data was the least accurate model, having yielded an accuracy of 72.69%.
+The GNN model which used graph data and node features worked best at detecting communities on the CORA dataset, and, thus, we can get following conclusions:
 
-Overall, both multi-layer perceptron models have relatively similar results, but when compared to the graph convolutional neural network, the presence of both graph data and node features clearly gave it a significant boost in performance. Of course, it is important to note that these algorithms were only evaluated on one dataset, and the models’ performances are dependent on the predictive power and patterns found in the data, let alone separate hyperparameters like learning rate of each model, input / output of each layer, etc. Nonetheless, accounting for both the node features and graph data proved to be best, as the graph convolutional neural network was most suited to detecting communities in the data.
+* Using both components of the data led to a substantial improvement in accuracy, when both graph structure and node features are predictive.
 
-Also, evaluating each model on the Twitch dataset, we suppose that our findings from the CORA dataset does not change. We still assume that, generally, giving the model both graph structure and relevant node features can lead to a better performance. Nevertheless, we additionally found that the possibility that bad features or bad community structure might negatively affect the prediction capability of the models.
+The MLP on solely the graph structure performed the best on the Twitch Gamers dataset, and, hence, we can say that:
+
+* Using node features brought the accuracy down, and since the MLP on node features and GNN incorporated it, they had lower accuracy. Therefore, the node features are not as predictive as the graph data, and node features will mislead the model.
+
+In other words, we can conclude that, if both graph structure and node features are predictive, applying both graph structure and node features will give a better performance. As the model receives more predictive information it will result in better performance, giving more predictive information, node features and graph structure simultaneously, to the model can naturally cause better performance. Nevertheless, if the information we pass to the model might be misleading or not predictive, the information is not helpful for the performance of the model. All in all, the best performing model depends on the predictivity of the data, so it is important to be flexible and use whichever is best for the situation.
 
 # Recommendations and Implications for Further Research
 
