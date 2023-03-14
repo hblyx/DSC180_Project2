@@ -5,11 +5,11 @@ title: "Conclusion"
 
 # Summary of Findings
 
-The GNN model which used graph data and node features worked best at detecting communities on the CORA dataset, and, thus, we can get following conclusions:
+### The GNN model which used graph data and node features worked best at detecting communities on the CORA dataset, and, thus, we can get following conclusions:
 
 * Using both components of the data led to a substantial improvement in accuracy, when both graph structure and node features are predictive.
 
-The MLP on solely the graph structure performed the best on the Twitch Gamers dataset, and, hence, we can say that:
+### The MLP on solely the graph structure performed the best on the Twitch Gamers dataset, and, hence, we can say that:
 
 * Using node features brought the accuracy down, and since the MLP on node features and GNN incorporated it, they had lower accuracy. Therefore, the node features are not as predictive as the graph data, and node features will mislead the model.
 
