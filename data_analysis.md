@@ -18,7 +18,7 @@ For the CORA dataset, the distribution of the degrees seems like a power-law dis
 
 ### Community analysis
 
-For the paper communities, all communities have higher internal density represented by the positive density gap. Accordingly, the average density illustrates a large density gap, 0.6199. Therefore, we can obviously see that community structure is obvious in this dataset in terms of community topology.
+For the CORA paper communities, all communities have higher internal density represented by the positive density gap. Accordingly, the average density illustrates a large density gap, 0.6199. Therefore, we can obviously see that community structure is obvious in this dataset in terms of community topology.
 
 ## Analysis of Twitch Gamer
 ### Degree distribution
@@ -29,4 +29,4 @@ For the Twitch dataset, the distribution of the degrees seems like a power-law d
 
 ### Community analysis
 
-For language as communities, even though there are some languages communities have less in-community density than out-community density, negative density gap, these density commonly have really small size. Therefore, the average density illustrates a large density gap, 0.799. In other words, although the EN community shows an obvious community structure, other communities are insignificant to detect. In conclusion, this dataset has a really weak community structure to detect in terms of community topology.
+For Twitch language as communities, even though there are some languages communities have less in-community density than out-community density, negative density gap, these density commonly have really small size. Therefore, the average density illustrates a large density gap, 0.799. In other words, although the EN community shows an obvious community structure, other communities are insignificant to detect. In conclusion, this dataset has a really weak community structure to detect in terms of community topology.
