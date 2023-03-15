@@ -22,7 +22,6 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "data_analysis.md", title: Data Analysis}
   - {file: "methods.md", title: Methods}
   - {file: "results.md", title: Results}
-  
   - {file: "discussion.md", title: Discussion}
   - {file: "conclusion.md", title: Conclusion}
   - {file: "reference.md", title: Reference}
