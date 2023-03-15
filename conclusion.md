@@ -11,10 +11,10 @@ title: "Conclusion"
 
 ### The MLP on solely the graph structure performed the best on the Twitch Gamers dataset, and, hence, we can say that:
 
-* Using node features could have brought the accuracy down, and since the MLP on node features and GCN incorporated it, they had lower accuracy. Therefore, the node features are not as predictive as the graph data on the twitch dataset, and node features mislead the model.
+* Using node features could have brought the accuracy down, and since the MLP on node features and GCN incorporated it, they had lower accuracy. Therefore, the node features are not as predictive as the graph data on the Twitch dataset, and node features mislead the model.
 
 ### Conclusion
-We can conclude that incorporating both graph structure and node features in a model, when both are predictive, would result in improved performance. This is because the model can leverage more predictive information, which would naturally improve its performance. However, if the information provided to the model is unhelpful or misleading, it would not contribute to its performance. All in all, the best performing model depends on the quality of the data, so it is important to be flexible and use whichever is best for the situation.
+We can conclude that incorporating both graph structure and node features in a model, when both are predictive, would result in improved performance. This is because the model can leverage more predictive information, which would naturally improve its performance. However, if the information provided to the model is unhelpful or misleading, it would not contribute to its performance and may even bring it down. All in all, the best performing model depends on the quality of the data, so it is important to be flexible and use whichever is best for the situation.
 
 # Recommendations and Implications for Further Research
 
