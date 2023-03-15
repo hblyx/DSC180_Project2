@@ -9,11 +9,11 @@ title: "Methods"
 
 # MLP on Node Features
 
-One of the neural networks we tested on the dataset was a Multi-Layer Perceptron constructed specifically to work with purely node features. The network consists of a linear layer that takes in the node feature matrix given by the dataset, ReLU activation, a second linear layer with 64 neural input and 32 output, fed into ReLU again, and finally a third linear layer with 32 neural input and output as the predicted community a node belongs to.
+The first neural network we tested on the dataset was a Multi-Layer Perceptron constructed specifically to work with purely node features. This network architecture comprised three linear layers. The first layer accepted the node feature matrix provided by the dataset, followed by Rectified Linear Unit (ReLU) activation. The second layer comprised 64 neurons as input and 32 neurons as output, which were subsequently fed into another ReLU activation function. The third and final layer consisted of 32 neurons as both input and output, and it predicted which community a node belongs to.
 
 # MLP on Graph Data
 
-The second MLP tested on the dataset was designed to operate solely based on graph data. This MLP was constructed similarly to the first MLP, with two linear layers and two ReLU layers, with the same sizes as well. The first linear layer was followed by a ReLU activation function, while the second linear layer had 64 input neurons and 32 output neurons, which were again fed into ReLU. The third linear layer, with 32 input neurons, produced the final prediction of the community that a node belongs to.
+The second MLP tested on the dataset was designed to operate with a focus on graph data alone. This MLP architecture was constructed in a manner similar to the first MLP, with two linear layers and two ReLU layers of the same size. The first linear layer was followed by a ReLU activation function, while the second linear layer consisted of 64 input neurons and 32 output neurons that were subsequently fed into another ReLU layer. Finally, the third linear layer comprised 32 input neurons and generated the community prediction for a node. 
 
 # GNN on Node Features + Graph Data
 
@@ -21,4 +21,4 @@ The second MLP tested on the dataset was designed to operate solely based on gra
 
 [GNN](https://theaisummer.com/Graph_Neural_Networks/) by Sergios Karagiannakos
 
-This community detection algorithm is a graph convolutional neural network constructed to work with both node features and graph data. It is composed of a graph convolutional layer that takes as input the node feature matrix and edge indices with 64 output channels, followed by ReLU activation, and finally another graph convolutional layer with 64 input channels and output as the predicted community a node belongs to.
+For this community detection algorithm, we used a Graph Convolutional Neural Network constructed to take advantage of node features and graph data. The GCN architecture comprises a Graph Convolutional Layer that accepts the node feature matrix and edge indices as input and generates 64 output channels. This layer is subsequently followed by ReLU activation, and a second Graph Convolutional Layer with 64 input channels is employed to predict the community membership of each node. The output of this layer represents the final community prediction.
