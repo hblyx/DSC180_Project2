@@ -10,7 +10,7 @@ We analyzed the degree distribution and community structure of a network, focusi
 $$\text{density} = \frac{\text{number of edges in-community}}{\text{number of edges out-community}}$$
 
 ## Analysis of CORA
-#### NOTE: Terminologies are used in the analysis:
+#### NOTE: Terminologies used in the analysis:
 * Internal Density: Proportion of edges that exist within a community.
 * Positive Density Gap: Difference between the density of edges within a community and the average density of edges outside that community. A positive density gap indicates that the community is more densely connected internally than with nodes outside the community.
 * Average Density: Proportion of edges that exist within a network as a whole.
