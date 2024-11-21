@@ -9,6 +9,8 @@ Each neural network was evaluated by their classification accuracy as the propor
 
 ## CORA
 
+Models’ performances on the CORA dataset:
+
 | Model         | Accuracy         |
 |------------------|------------------|
 | Multi-Layer Perceptron on Node Features      | 77.12%     |
@@ -19,7 +21,7 @@ The results of the models on the CORA dataset demonstrate that the GCN incorpora
 
 ## Twitch
 
-The models’ performances on the CORA dataset is displayed in the table below:
+Models’ performances on the Twitch dataset:
 
 | Model         | Accuracy         |
 |------------------|------------------|
